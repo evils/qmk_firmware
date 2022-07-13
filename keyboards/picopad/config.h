@@ -68,4 +68,4 @@
 #define ENABLE_RGB_MATRIX_MULTISPLASH
 #define ENABLE_RGB_MATRIX_SOLID_MULTISPLASH
 
-#define NOP_FUDGE 0.4
+#define NOP_FUDGE 0.1 // must be non-zero or the pico doesn't boot right
