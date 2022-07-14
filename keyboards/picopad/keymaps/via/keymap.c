@@ -17,7 +17,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [1] = LAYOUT_ortho_3x3(
         QK_BOOT,   DB_TOGG,   MAGIC_TOGGLE_NKRO,
-        EE_CLR,   KC_UP,   KC_RGHT,
+        EE_CLR,   KC_UP,   RGB_TOG,
         MO(2),   KC_DOWN,   KC_TRNS
     ),
     [2] = LAYOUT_ortho_3x3(
