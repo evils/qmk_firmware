@@ -1,0 +1,20 @@
+{
+	"name": "PicoPad",
+	"vendorId": "0xFEED",
+	"productId": "0x0020",
+	"lighting": {
+		"extends": "wt_rgb_backlight",
+		"effects": [
+			["Solid Colour 1", 1],
+			["Cycle All", 0]
+		]
+	},
+	"matrix": {"rows": 3, "cols": 3},
+	"layouts": {
+		"keymap": [
+			["0,0", "0,1", "0,2"],
+			["1,0", "1,1", "1,2"],
+			["2,0", "2,1", "2,2"]
+		]
+	}
+}
