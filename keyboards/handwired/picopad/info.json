@@ -12,6 +12,16 @@
         "mousekey": false,
         "nkro": true
     },
+    "rgblight": {
+      "led_count": 21,
+      "pin": "GP28",
+      "hue_steps": 256,
+      "saturation_steps": 256,
+      "brightness_steps": 256,
+      "animations": {
+        "all": true
+      }
+    },
     "matrix_pins": {
         "direct": [
             ["NO_PIN", "NO_PIN", "NO_PIN", "NO_PIN", "NO_PIN"],
