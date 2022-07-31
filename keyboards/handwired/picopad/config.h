@@ -35,7 +35,8 @@
 
 #ifdef RGB_MATRIX_ENABLE
 
-  #define RGB_DI_PIN GP0
+  #define RGB_DI_PIN GP28 // surrounding strip
+  //#define RGB_DI_PIN GP2 // matrix strips (flickers on low brightness)
   #define DRIVER_LED_TOTAL 9
   #define RGBLED_NUM 9
   #define RGB_MATRIX_KEYPRESSES
