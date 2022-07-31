@@ -35,13 +35,12 @@
 
 #ifdef RGB_MATRIX_ENABLE
 
-  #define RGB_DI_PIN GP28 // surrounding strip
-  //#define RGB_DI_PIN GP2 // matrix strips (flickers on low brightness)
-  #define DRIVER_LED_TOTAL 9
-  #define RGBLED_NUM 9
+  #define RGB_DI_PIN GP28 // surrounding strip, then the matrix
+  #define DRIVER_LED_TOTAL 21
+  #define RGBLED_NUM 21
   #define RGB_MATRIX_KEYPRESSES
   #define RGB_MATRIX_FRAMEBUFFER_EFFECTS
-  #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 200   // limit brightness to not overamp the USB
+  #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 127   // limit brightness to not overamp the USB
   #define RGB_MATRIX_LED_FLUSH_LIMIT 8        // 16 is equivalent to limiting to 60fps
   #define RGB_DISABLE_AFTER_TIMEOUT 0         // number of ticks to wait until disabling effects
   #define RGB_DISABLE_WHEN_USB_SUSPENDED      // turn off effects when suspended
