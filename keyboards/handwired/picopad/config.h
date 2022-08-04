@@ -35,9 +35,7 @@
 
 #ifdef RGB_MATRIX_ENABLE
 
-  #define RGB_DI_PIN GP28 // surrounding strip, then the matrix
   #define DRIVER_LED_TOTAL 21
-  #define RGBLED_NUM 21
   #define RGB_MATRIX_KEYPRESSES
   #define RGB_MATRIX_FRAMEBUFFER_EFFECTS
   #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 127   // limit brightness to not overamp the USB
