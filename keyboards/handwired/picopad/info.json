@@ -3,14 +3,29 @@
     "keyboard_name": "picopad",
     "maintainer": "Evils",
     "bootloader": "rp2040",
+    "processor": "RP2040",
     "diode_direction": "ROW2COL",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0020",
+        "vid": "0xFEED"
+    },
     "features": {
         "bootmagic": true,
         "command": false,
         "console": false,
         "extrakey": true,
         "mousekey": false,
-        "nkro": true
+        "nkro": true,
+        "via": true
+    },
+    "rgblight": {
+      "led_count": 9,
+      "pin": "GP1",
+      "animations": {
+        "all": true
+      }
     },
     "matrix_pins": {
         "direct": [
@@ -18,13 +33,6 @@
             ["GP5", "GP6", "GP7"],
             ["GP8", "GP9", "GP10"]
         ]
-    },
-    "processor": "RP2040",
-    "url": "",
-    "usb": {
-        "device_version": "1.0.0",
-        "pid": "0x0020",
-        "vid": "0xFEED"
     },
     "layouts": {
         "LAYOUT_ortho_3x3": {
