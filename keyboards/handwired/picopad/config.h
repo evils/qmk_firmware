@@ -35,7 +35,7 @@
 
 #ifdef RGB_MATRIX_ENABLE
 
-  #define RGB_DI_PIN GP0
+  #define RGB_DI_PIN GP1
   #define DRIVER_LED_TOTAL 9
   #define RGBLED_NUM 9
   #define RGB_MATRIX_KEYPRESSES
