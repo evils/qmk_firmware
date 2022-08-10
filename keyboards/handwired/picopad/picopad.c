@@ -7,7 +7,7 @@ led_config_t g_led_config = {
 	{
 		{ 0, 1, 2 },
 		{ 5, 4, 3 },
-		{ 8, 7, 6 }
+		{ 6, 7, 8 }
 	}, // LED Index to Physical Position
 	{
 		{0, 0}, {112, 0}, {224, 0},
